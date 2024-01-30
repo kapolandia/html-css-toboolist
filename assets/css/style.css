@@ -16,6 +16,7 @@ header{
 .logo{
     height: 80px;
     line-height: 80px;
+    margin-left: 20px;
 }
 
 .logo-content{
