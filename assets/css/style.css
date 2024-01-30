@@ -71,24 +71,27 @@ header{
     margin-bottom: 30px;
 }
 
-.task{
+.task {
     margin-top: 20px;
     margin-left: 0;
     font-weight: 400;
 }
 
-.circle{
-    border: 1px solid green;
-    border-radius: 100%;
-    width: 20px;
-    height: 20px;
-    padding: 1px;
+.circle {
+    border-radius: 100%; 
+    width: 30px;
+    height: 30px;
     display: inline-block;
-    text-align: center;
+    line-height: 30px;
     margin-right: 10px;
-    color: green;
+    vertical-align: middle;
+    text-align: center;
 }
 
+.green{
+    color: green;
+    border: 1px solid green;
+}
 .red{
     border: 1px solid red;
     color: red;
